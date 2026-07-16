@@ -1,0 +1,33 @@
+.notifier {
+  font-size: 1rem;
+  position: absolute;
+  z-index: 10;
+
+  top: 45px;
+  left: 65px;
+  margin: 10px;
+
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  width: 370px;
+  height: 90px;
+  transition: all 1s ease;
+}
+
+.notifier__message {
+  margin: .5rem;
+}
+
+#notifier__close {
+  font-family: 'Lato';
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  color: rgba(0,0,0, 0.5);
+}
+
+#notifier__close:hover {
+  cursor: pointer;
+}
